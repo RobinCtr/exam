@@ -18,14 +18,13 @@ class _ContadorPageState extends State<ContadorPage> {
           centerTitle: true,
         ),
         body: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[
-              Text('Número de Tabs', style: _estiloTexto),
-              Text('$_conteo', style: _estiloTexto),
-            ],
-          ),
-        ),
+            child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Text('Numero de taps:', style: _estiloTexto),
+            Text('$_conteo', style: _estiloTexto),
+          ],
+        )),
         floatingActionButton: _crearBotones());
   }
 
